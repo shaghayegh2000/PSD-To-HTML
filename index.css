@@ -1,0 +1,92 @@
+.slider {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.slider .center {
+    width: 1024px;
+    height: 360px;
+    margin: auto;
+}
+.slider .center .right {
+    width: 780px;
+    height: 360px;
+    float: right;
+}
+.slider .center .right .slider-box {
+    width: 780px;
+    height: 280px;
+    overflow: hidden;
+}
+.slider .center .right .slider-box .btns{
+    width: 200px;
+    height: 280px;
+    float: right;
+}
+.right .slider-box .btns .active {}
+.right .slider-box .btns .btnitem1{
+    border-top: 2px solid #f4f4f4;
+}
+.right .slider-box .btns .btn-item {
+    width: 198px;
+    border-right: 2px solid #ccc;
+    height: 68px;
+    border-bottom: 2px solid #f4f4f4;
+    background-color: white;
+}
+.right .slider-box .btns .btn-item h5 {}
+.right .slider-box .btns .btn-item h6 {}
+.slider .center .right .slider-box .imgs{}
+.right .slider-box .imgs .img-item{}
+.right .slider-box .imgs .img-item img{}
+.slider .center .right .levels {
+    display: none;
+}
+.slider .center .right .levels ul {}
+.slider .center .right .levels ul li {}
+.slider .center .right .levels ul li i.icon {}
+.slider .center .right .levels ul li i.icon-gift {}
+.slider .center .right .levels ul li i.icon-pay {}
+.slider .center .right .levels ul li i.icon-check {}
+.slider .center .right .levels ul li h5 {}
+.slider .center .right .levels ul li p {}
+.slider .center .right .levels {}
+.slider .center .left {
+    display: none;
+
+}
+.slider .center .left .ads {}
+.slider .center .left .ads a {}
+.slider .center .left .ads a img {}
+.slider .center .newsletter {}
+.slider .center .newsletter img {}
+.slider .center .newsletter p {}
+.slider .center .newsletter form {}
+.slider .center .newsletter form input[type=email] {}
+.slider .center .newsletter form input[type=submit] {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
