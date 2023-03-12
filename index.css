@@ -92,16 +92,64 @@
     float: left;
 }
 .slider .center .right .levels {
-    display: none;
+    width: 780px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #e4e4e4;
 }
 .slider .center .right .levels ul {}
-.slider .center .right .levels ul li {}
+.slider .center .right .levels ul li {
+    float: right;
+    width: 258px;
+    height: 60px;
+    position: relative;
+}
+.slider .center .right .levels ul li::after {
+    content: "";
+    height: 40px;
+    width: 2px;
+    background-color: #e4e4e4;
+    float: left;
+    bottom: 10px;
+    position: absolute;
+    left: 0;
+}
+.slider .center .right .levels ul li:last-child::after {
+display: none;
+}
 .slider .center .right .levels ul li i.icon {}
-.slider .center .right .levels ul li i.icon-gift {}
-.slider .center .right .levels ul li i.icon-pay {}
-.slider .center .right .levels ul li i.icon-check {}
-.slider .center .right .levels ul li h5 {}
-.slider .center .right .levels ul li p {}
+.slider .center .right .levels ul li i.icon-gift {
+    width: 35px;
+    height: 30px;
+    float: right;
+    margin: 12px 17px;
+    background: url("images/gift.png");
+    background-repeat: no-repeat;
+}
+.slider .center .right .levels ul li i.icon-pay {
+    width: 35px;
+    height: 30px;
+    float: right;
+    margin: 12px 17px;
+    background: url("images/pay.png");
+    background-repeat: no-repeat;
+}
+.slider .center .right .levels ul li i.icon-check {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 12px 17px;
+    background: url("images/check.png");
+    background-repeat: no-repeat;
+}
+.slider .center .right .levels ul li h5 {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.slider .center .right .levels ul li p {
+    font-size: 12px;
+}
 .slider .center .right .levels {}
 .slider .center .left {
     display: none;
