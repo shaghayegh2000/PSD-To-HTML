@@ -150,14 +150,24 @@ display: none;
 .slider .center .right .levels ul li p {
     font-size: 12px;
 }
-.slider .center .right .levels {}
 .slider .center .left {
-    display: none;
-
+    width: 239px;
+    height: 360px;
+    float: left;
+    margin-right: 5px;
 }
-.slider .center .left .ads {}
-.slider .center .left .ads a {}
-.slider .center .left .ads a img {}
+.slider .center .left .ads {
+    width: 239px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #e4e4e4;
+    float: right;
+    margin: 0 10px 10px 0;
+}
+.slider .center .left .ads a img {
+    width: 242px;
+    height: 100px;
+}
 .slider .center .newsletter {}
 .slider .center .newsletter img {}
 .slider .center .newsletter p {}
