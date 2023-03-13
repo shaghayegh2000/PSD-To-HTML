@@ -168,12 +168,93 @@ display: none;
     width: 242px;
     height: 100px;
 }
-.slider .center .newsletter {}
-.slider .center .newsletter img {}
-.slider .center .newsletter p {}
-.slider .center .newsletter form {}
-.slider .center .newsletter form input[type=email] {}
-.slider .center .newsletter form input[type=submit] {}
+.slider .center .newsletter {
+    width: 239px;
+    height: 145px;
+    text-align: center;
+    background-color: #27bec4;
+    float: right;
+    margin-right: 10px;
+}
+.slider .center .newsletter img {
+    margin-top: 10px;
+}
+.slider .center .newsletter p {
+    font-size: 12px;
+    color: white;
+    margin: 2px 20px;
+}
+.slider .center .newsletter form {
+    width: 180px;
+    height: 20px;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #29aeb4;
+    position: relative;
+}
+.slider .center .newsletter form input[type=email] {
+    background-color: #29aeb4;
+    direction: ltr;
+    color: white;
+    width: 130px;
+}
+.slider .center .newsletter form input[type=email]::placeholder {
+    color: white;
+    font-size: 12px;
+    float: right;
+}
+.slider .center .newsletter form input[type=submit] {
+    /* width: 70px;
+    height: 20px;
+    margin-top: 7px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: white;
+    color: #29aeb4; */
+    display: none;
+}
+.slider .center .newsletter label {
+    width: 60px;
+    height: 20px;
+    margin: auto;
+    display: block;
+    font-size: 13px;
+    padding: 2px 7px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: white;
+    color: #29aeb4;
+}
+.slider .center .newsletter form::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #169096;
+    top: 3px;
+}
+.slider .center .newsletter form::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    width: 17px;
+    height: 15px;
+    left: 7px;
+    top: 5px;
+    background: url("images/packet.png");
+    background-repeat: no-repeat;
+}
 
 
 
